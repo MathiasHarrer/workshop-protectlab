@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: minimal
-day_night: true
-font: ''
-font_size: L
+theme: "my_theme"
+day_night: false
+font: 'my_font_set'
+font_size: M
 
 # SEO
 
@@ -31,14 +31,16 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
+date_format: '2. Januar 2006'
+time_format: '15:03'
 
 # Site features
 
-highlight: false
-math: false
-diagram: false
+highlight: true
+highlight_languages:
+- r
+math: true
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ''

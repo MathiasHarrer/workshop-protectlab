@@ -1,0 +1,17 @@
+.light code{
+  color: green;
+  font-size: 18px;
+}
+
+light .code{
+  color: green;
+  font-size: 18px;
+}
+
+pre {
+  color: green;
+}
+
+h2 {
+  color: "#1565c0";
+}

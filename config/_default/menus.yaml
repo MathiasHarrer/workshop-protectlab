@@ -7,6 +7,11 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Documentation
+    identifier: home
+  - name: Workshops
     url: docs/
     weight: 20
+    identifier: workshops
+  - name: Analyse von RCTs in R
+    url: docs/r-analyse-rcts
+    parent: workshops
